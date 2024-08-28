@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 35px;
+  background-color: aliceblue;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  font-size: 18px;
+  text-decoration: unset;
+  color: plum;
+}
+
+nav ul li a:hover {
+  color: black;
+}
