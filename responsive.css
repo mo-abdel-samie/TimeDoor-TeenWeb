@@ -1,0 +1,28 @@
+html {
+  font-size: 15px;
+}
+
+h1 {
+  width: 50rem;
+  height: 60rem;
+  padding: 1.5rem;
+  margin: 1rem;
+  font-size: 2.5rem;
+  background-color: aqua;
+}
+
+.branding-img {
+    width: 15rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 5px;
+  }
+}
