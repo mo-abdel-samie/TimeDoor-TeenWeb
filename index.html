@@ -4,6 +4,10 @@
 <head>
     <title>Web development</title>
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -18,7 +22,13 @@
                     <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="about.html">About page</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact page</a>
+                </li>
+                <li>
+                    <a href="#about-section">About section</a>
                 </li>
                 <li>
                     <a href="#">Projects</a>
@@ -45,85 +55,97 @@
 
     <main>
         <section>
-            <h2>Table.</h2>
+            <h2 class="cards-title"><i class="fa-solid fa-table-columns icon-color"></i> Table.</h2>
 
-            <table border="2">
-                <tr>
-                    <th>Id</th>
-                    <th>Name</th>
-                    <th>Age</th>
-                </tr>
+            <div class="flex-container">
+                <div class="card">
+                    <h3>Gold</h3>
+                    <p>100,000 EGP</p>
+                    <hr>
+                    <ul>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                    </ul>
 
-                <tr>
-                    <td>01</td>
-                    <td>Mohamed</td>
-                    <td>20</td>
-                </tr>
+                    <button>Subscribe</button>
+                </div>
 
-                <tr>
-                    <td>01</td>
-                    <td>Mohamed</td>
-                    <td>20</td>
-                </tr>
-            </table>
+                <div class="card">
+                    <h3>Gold</h3>
+                    <p>100,000 EGP</p>
+                    <hr>
+                    <ul>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                    </ul>
 
+                    <button>Subscribe</button>
+                </div>
 
-            <table border="2">
-                <tr>
-                    <th>id</th>
-                    <th>product</th>
-                    <th>price</th>
-                </tr>
+                <div class="card">
+                    <h3>Gold</h3>
+                    <p>100,000 EGP</p>
+                    <hr>
+                    <ul>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem, ipsum.</li>
+                    </ul>
 
-                <tr>
-                    <td>1</td>
-                    <td>Mobile</td>
-                    <td>200</td>
-                </tr>
-
-                <tr>
-                    <td>2</td>
-                    <td>Mobile</td>
-                    <td>200</td>
-                </tr>
-
-                <tr>
-                    <td>3</td>
-                    <td>Mobile</td>
-                    <td>200</td>
-                </tr>
-
-                <tr>
-                    <td colspan="2" rowspan="2">Total</td>
-                    <td>before 600</td>
-                </tr>
-
-                <tr>
-                    <td>after 600</td>
-                </tr>
-            </table>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </section>
 
 
-            <table border="2">
-                <tr>
-                    <th>id</th>
-                    <th>name</th>
-                    <th colspan="2">colors</th>
-                </tr>
+        <section>
+            <h2>Section1</h2>
+            <a href="/imgs/3.png">open image</a>
+        </section>
 
-                <tr>
-                    <td>1</td>
-                    <td>Dalia</td>
-                    <td>Red</td>
-                    <td>Blue</td>
-                </tr>
-            </table>
+        <section>
+            <h2>Section2</h2>
+        </section>
 
+        <section>
+            <h2>Section3</h2>
+        </section>
+        <section>
+            <h2>Section4</h2>
+        </section>
+        <section>
+            <h2>Section5</h2>
+        </section>
+
+        <section id="about-section">
+            <h2>About Section</h2>
         </section>
     </main>
 
     <footer>
-
+        <ul>
+            <li>
+                <i class="fa-solid fa-phone"></i> Phone: +20111111111
+            </li>
+            <li>
+                <i class="fa-solid fa-envelope"></i> Phone: +20111111111
+            </li>
+        </ul>
+        <p>&copy; Copyright reserved - Timedoor 2024</p>
     </footer>
 </body>
 
