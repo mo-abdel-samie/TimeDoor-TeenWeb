@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
         integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
@@ -21,7 +21,7 @@
     <header>
         <nav>
             <a href="">
-                <img width="120" src="imgs/3.png" alt="">
+                <img width="120" src="assets/imgs/3.png" alt="">
             </a>
 
             <ul>
@@ -47,8 +47,8 @@
         </nav>
 
         <div>
-            <h1>Lorem, ipsum dolor.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, quibusdam optio corporis quidem, facilis
+            <h1 class="heading-class" id="heading">Lorem, ipsum dolor.</h1>
+            <p class="heading-class">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, quibusdam optio corporis quidem, facilis
                 asperiores consectetur laudantium accusantium ea qui ducimus fuga commodi aliquam blanditiis!
             </p>
 
@@ -120,8 +120,14 @@
 
 
         <section>
-            <h2>Section1</h2>
+            <h2>DoTos</h2>
             <a href="/imgs/3.png">open image</a>
+
+            <input type="text">
+            <button id="addToDo">Add ToDo</button>
+            <div id="doTosContainer">
+
+            </div>
         </section>
 
         <section>
@@ -154,6 +160,8 @@
         </ul>
         <p>&copy; Copyright reserved - Timedoor 2024</p>
     </footer>
+
+    <script src="assets/scripts/main.js"></script>
 </body>
 
 </html>

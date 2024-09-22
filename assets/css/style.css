@@ -63,6 +63,10 @@ section {
   height: 100vh;
 }
 
+.bg-black {
+  background-color: black;
+}
+
 @media (max-width: 768px) {
   .flex-container {
     gap: 5px;
