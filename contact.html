@@ -3,7 +3,7 @@
 
 <head>
     <title>Web development</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -12,7 +12,7 @@
 
         <nav>
             <a href="">
-                <img width="120" src="imgs/3.png" alt="">
+                <img width="120" src="assets/imgs/3.png" alt="">
             </a>
 
             <ul>
@@ -36,29 +36,51 @@
                 </li>
             </ul>
         </nav>
-
-        <div>
-            <h1>Lorem, ipsum dolor.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, quibusdam optio corporis quidem, facilis
-                asperiores consectetur laudantium accusantium ea qui ducimus fuga commodi aliquam blanditiis!
-            </p>
-
-            <button>Click</button>
-        </div>
-
-        <div>
-
-        </div>
     </header>
 
     <main>
-        <a href="https://google.com" target="_blank">Google</a>
-
+        <section>
+            <h2>Form Events</h2>
+            <div>
+                <p>
+                    My name is <span id="myName"></span>
+                </p>
+                <p>
+                    My email is <span id="myEmail"></span>
+                </p>
+            </div>
+            <form id="contactForm" action="contact.html" method="get">
+                <div>
+                    <label>Full Name:
+                        <input type="text" placeholder="name" name="name" required>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Email:
+                        <input type="email" placeholder="ex: example@gmail.com" name="email" required>
+                    </label>
+                </div>
+                <div>
+                    <label>Phone:
+                        <input id="phone" type="tel" placeholder="ex: (+20) 111111111" name="phone" required>
+                    </label>
+                </div>
+                <div>
+                    <label>Age:
+                        <input type="number" placeholder="ex: 20,23,..etc." name="age" min="18">
+                    </label>
+                </div>
+                <input type="submit">
+            </form>
+        </section>
     </main>
 
     <footer>
 
     </footer>
+
+    <script src="assets/scripts/contact.js"></script>
 </body>
 
 </html>
